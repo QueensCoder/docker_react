@@ -1,0 +1,9 @@
+# super user permissions required for docker
+sudo: required
+services:
+  - docker
+# what to run before installing
+before_install:
+  - docker build -t ozkhan/docker-react -f Dockerfile.dev .
+script:
+  - docker run -e CI=true USERNAME/docker-react npm run test

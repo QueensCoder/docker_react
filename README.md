@@ -1,3 +1,8 @@
+I Developing Containers for Development and Production
+
+    make docker container for dev
+    make docker container for live
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
